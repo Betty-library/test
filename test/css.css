@@ -1,0 +1,555 @@
+*{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+
+#all{
+    position: relative;
+}
+.banner{
+    width: 100%;
+    height: 720px;
+    position: relative;
+}
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+header h1{
+    float: left;
+    width: 80px;
+    height: 60px;
+    margin: 10px 80px;
+}
+header h1 a{
+    float: left;
+    color: #000;
+    font-size: 26px;
+    font-weight: normal;
+    z-index: 10;
+}
+header ul li{
+    float: left;
+}
+header nav{
+    margin: 0 auto;
+}
+header nav ul{
+    width: 34%;
+    height: 60px;
+    margin: 0 auto;
+    padding: 10px 10px 0;
+}
+header nav ul li{
+    margin: 10px;
+}
+header nav ul li a{
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #aaa;
+}
+header nav ul li a:hover{
+    color: #666;
+}
+
+header .sousuo{
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+}
+header .sousuo li{
+    margin: 0 20px;
+}
+
+.lunbotu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+.lunbo{
+    display: inline-block;
+    width: 400%;
+    height: 800px;
+    /* animation: move 15s linear 3s infinite ; */
+    transition: left 2s;
+    position: absolute;
+    left: 0px;
+}
+#LB{
+    position: absolute;
+    left: 0px;
+}
+.lunbo li{
+    position: relative;
+    float: left;
+    width: 25%;
+    display: inline-block;
+}
+.lunbo li img{
+    width: 100%;
+}
+.lunbo li #d2_1,.lunbo li #d2_2{
+    position: absolute;
+    top: 268px;
+    left: 220px;
+}
+.lunbo li #d2_3{
+    position: absolute;
+    top: 268px;
+    right: 220px;
+}
+.lunbo li .wenzi h2{
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+}
+.lunbo li #d2_2 h2,.lunbo li #d2_3 h2{
+    color: #fff;
+}
+.lunbo li .wenzi h3{
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+}
+.lunbo li #d2_2 h3,.lunbo li #d2_3 h3{
+    color: #fff;
+}
+.lunbo li .wenzi #d2{
+    margin-top: 12px;
+}
+.lunbo li #d2_1 .a1{
+    padding: 12px 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 40px;
+}
+.lunbo li #d2_2 .a1,.lunbo li #d2_3 .a1{
+    padding: 12px 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 40px;
+}
+.lunbo li #d2_1 .a2{
+    margin-left: 12px;
+    font-weight: normal;
+    font-size: 12px;
+    color: #222;
+    border-bottom: 1px solid #333;
+}
+.lunbo li #d2_2 .a2,.lunbo li #d2_3 .a2{
+    margin-left: 12px;
+    font-weight: normal;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.lunbo li #d2_1 .a2:hover{
+    color: #444;
+}
+.lunbo li #d2_2 .a2:hover,.lunbo li #d2_3 .a2:hover{
+    color: #eee;
+}
+/* @keyframes move {
+    0%,33.33%{
+        transform: translateX(0%);
+    }
+    33.33%{
+        transform: translateX(-25%);
+	}
+	66.66% {
+        transform: translateX(-50%);
+	}
+	100%{
+        transform: translateX(-75%);
+	}
+} */
+.yuandian{
+    position: absolute;
+    top: 644px;
+    left: 640px;
+    display: block;
+    width: 100px;
+    height: 20px;
+}
+.yuandian li a{
+    float: left;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+#dian1,#dian2,#dian3{
+    display: block;
+    border: none;
+}
+/* .yuandian li a:active{
+
+} */
+
+
+.news{
+    clear: both;
+    height: 1140px;
+}
+.news h1{
+    float: left;
+    margin: 40px 60px;
+    font-size: 42px;
+    line-height: 120%;
+    font-weight: normal;
+}
+.news a{
+    float: right;
+    margin-top: 66px;
+    margin-right: 40px;
+    color: #333;
+    font-size: 14px;
+    line-height: 16px;
+}
+.news #a1{
+    border-bottom: 1px solid #333;
+    margin-right: 60px;
+}
+.news ul li{
+    clear: both;
+    float: left;
+    width: 50%;
+    position: relative;
+    margin: 32px 0 100px;
+}
+.news ul{
+    position: relative;
+}
+.news ul .tu3{
+    position: absolute;
+    top: 128px;
+    right: 0;
+    width: 584px;
+    float: right;
+    margin-right: 60px;
+}
+.news ul .tu1 img,.news ul .tu2 img{
+    width: 460px;
+    margin-left: 60px;
+}
+
+.news ul li a{
+    font-size: 16px;
+    font-weight: 700;
+}
+.news ul li a span{
+    font-size: 14px;
+    color: greenyellow;
+    font-weight: normal;
+    margin-left: 20px;
+}
+.news ul li .a1{
+    position: absolute;
+    top: 254px;
+    left: 60px;
+}
+.news ul li .a3{
+    position: absolute;
+    top: 724px;
+    left: 0px;
+}
+.news ul li h3{
+    position: absolute;
+    top: 344px;
+    left: 60px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+}
+.news ul .tu3 .a3{
+    top: 654px;
+}
+.news ul .tu3 h3{
+    top: 816px;
+    left: 0px;
+}
+.news ul .tu3 span{
+    display: inline-block;
+    line-height: 20px;
+    margin-top: 72px;
+}
+.news ul div{
+    clear: both;
+    position: relative;
+    width: 400px;
+}
+.news ul div a{
+    position: absolute;
+}
+.news ul .tu1 div a:first-child,.news ul .tu2 div a:first-child{
+    left: 60px;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    
+}
+.news ul .tu3 div a:first-child{
+    left: 0px;
+    top: -60px;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+}
+.news ul .tu1 div a:last-child,.news ul .tu2 div a:last-child{
+    left: 160px;
+    top: 8px;
+    font-weight: normal;
+    font-size: 12px;
+    border-bottom: 1px solid #333;
+}
+.news ul .tu3 div a:last-child{
+    left: 100px;
+    top: -52px;
+    font-weight: normal;
+    font-size: 12px;
+    border-bottom: 1px solid #333;
+}
+.news ul li div a:first-child:hover{
+    opacity: 0.7;
+}
+.news ul li div a:last-child:hover{
+    color: #666;
+}
+
+
+.keji{
+    clear: both;
+    width: 100%;
+    height: 800px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+.keji h1{
+    float: left;
+    margin: 40px 60px;
+    font-size: 42px;
+    line-height: 120%;
+    font-weight: normal;
+}
+.keji ul li{
+    float: left;
+}
+.keji ul li div{
+    position: relative;
+    height: 480px;
+    overflow: hidden;
+}
+.keji ul li img{
+    position: absolute;
+    top: -14px;
+    left: -34px;
+    display: block;
+    transition: all 0.3s;
+}
+.keji ul li img:hover{
+    transform: scale(0.95);
+}
+.keji ul li:first-child div{
+    width: 700px;
+    position: absolute;
+    top: 140px;
+    left: 60px; 
+}
+.keji ul li:first-child img{
+    width: 800px;
+}
+.keji ul li:last-child div{
+    width: 360px;
+    position: absolute;
+    top: 140px;
+    right: 60px;
+}
+.keji ul li:last-child img{
+    width: 400px;
+}
+.keji ul li .a1{
+    position: absolute;
+    top: 632px;
+    color: #000;
+    line-height: 21px;
+    font-size: 16px;
+}
+.keji ul li h3{
+    position: absolute;
+    top: 650px;
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #333;
+}
+.keji ul li .a2{
+    position: absolute;
+    top: 696px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 8px 16px;
+}
+.keji ul li .a2:hover{
+    opacity: 0.7;
+}
+.keji ul li:first-child > *{
+    left: 60px;
+}
+.keji ul li:last-child > *{
+    left: 930px;
+}
+
+.tansuo{
+    clear: both;
+    width: 100%;
+    height: 740px;
+    background-color: #dde5e7;
+    padding: 120px 60px;
+    position: relative;
+}
+.tansuo h1{
+    float: left;
+    margin-bottom:  40px;
+    font-size: 28px;
+    line-height: 120%;
+    font-weight: normal;
+}
+.tansuo .jiantou li{
+    float: right;
+    margin: 0 15px;
+}
+.tansuo .jiantou li a{
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: #000 1px solid;
+    border-radius: 50%;
+    color: #000;
+    line-height: 32px;
+    text-align: center;
+}
+.tansuo .tuwen{
+    width: 1236px;
+    height: 390px;
+    overflow: hidden;
+    position: absolute;
+    top: 200px;
+}
+.tansuo .tuwen ul{
+    display: inline-block;
+    width: 3710px;
+    height: 390px;
+}
+#tuwen {
+    position:absolute;
+    left: 0px;
+    transition: left 0.5s;
+}
+.tansuo .tuwen li{
+    display: inline-block;
+    width: 392px;
+    margin: 0 20px 0 0;
+    float: left;
+}
+.tansuo .tuwen div{
+    position: relative;
+    height: 272px;
+    overflow: hidden;
+}
+.tansuo .tuwen div video{
+    position: absolute;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* display: none; */
+}
+.tansuo .tuwen img{
+    position: absolute;
+    width: 430px;
+    top: -6px;
+    left: -20px;
+    transition: all 0.3s;
+}
+.tansuo .tuwen img:hover{
+    transform: scale(0.95);
+}
+.tansuo .tuwen #tu3:hover{
+    /* display: none; */
+}
+.tansuo .tuwen li .p1{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 8px 0;
+    color: #000;
+}
+.tansuo .tuwen li .p2{
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+}
+.tansuo .tuwen li a{
+    display: inline-block;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 2px;
+    color: #333;
+    height: 24px;
+    border-bottom: 1px solid #000;
+}
+
+.side{
+    display: block;
+    width: 32px;
+    position: fixed;
+    right: 80px;
+    bottom: 20px;
+}
+.side a{
+    float: left;
+    display: block;
+    margin: 6px;
+    padding: 8px;
+    background-color: #fff;
+    border: #eee solid 1px;
+    border-radius: 50%;
+}
+.side .ah:hover{
+    opacity: 0.7;
+}
+.side li img{
+    display: block;
+    width: 24px;
+}
